@@ -1,0 +1,35 @@
+[26.901245117] 2019-10-13 00:43:46,097 - INFO - launcher: Starting sanity checks
+[26.901245117] 2019-10-13 00:43:46,097 - INFO - launcher: Checking for Python 3.5+
+[26.901245117] 2019-10-13 00:43:46,097 - INFO - launcher: Checking console encoding
+[27.965784073] 2019-10-13 00:43:46,098 - INFO - launcher: Setting console encoding to UTF-8
+[27.965784073] 2019-10-13 00:43:46,098 - INFO - launcher: Ensuring we're in the right environment
+[28.936386108] 2019-10-13 00:43:46,099 - INFO - launcher: Adding local bins/ folder to path
+[587.618589401] 2019-10-13 00:43:46,657 - INFO - launcher: Required checks passed.
+[587.618589401] 2019-10-13 00:43:46,657 - INFO - launcher: Optional checks passed.
+[588.614463806] 2019-10-13 00:43:46,658 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.3087124824523926] 2019-10-13 00:43:47,379 - WARNING - musicbot.config | In config.py::MainThread(17984), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.3087124824523926] 2019-10-13 00:43:47,379 - INFO - musicbot.config | In config.py::MainThread(17984), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.3106801509857178] 2019-10-13 00:43:47,380 - DEBUG - musicbot.bot | In bot.py::MainThread(17984), line 225 in _setup_logging: Set logging level to INFO
+[1.3127083778381348] 2019-10-13 00:43:47,383 - DEBUG - musicbot.json | In json.py::MainThread(17984), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.3501462936401367] 2019-10-13 00:43:47,420 - INFO - musicbot.bot | In bot.py::MainThread(17984), line 90 in __init__: Starting MusicBot release-260819
+[1.3512058258056641] 2019-10-13 00:43:47,421 - INFO - musicbot.bot | In bot.py::MainThread(17984), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[5.7647962570190430] 2019-10-13 00:43:51,835 - DEBUG - musicbot.bot | In bot.py::MainThread(17984), line 951 in on_ready: Connection established, ready to go.
+[5.7647962570190430] 2019-10-13 00:43:51,835 - DEBUG - musicbot.bot | In bot.py::MainThread(17984), line 342 in _cache_app_info: Caching app info
+[5.9472374916076660] 2019-10-13 00:43:52,017 - DEBUG - musicbot.bot | In bot.py::MainThread(17984), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[5.9492318630218506] 2019-10-13 00:43:52,019 - DEBUG - musicbot.bot | In bot.py::MainThread(17984), line 789 in _scheck_server_permissions: Checking server permissions
+[5.9492318630218506] 2019-10-13 00:43:52,019 - DEBUG - musicbot.bot | In bot.py::MainThread(17984), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[5.9492318630218506] 2019-10-13 00:43:52,019 - DEBUG - musicbot.bot | In bot.py::MainThread(17984), line 797 in _scheck_configs: Validating config
+[5.9492318630218506] 2019-10-13 00:43:52,019 - DEBUG - musicbot.config | In config.py::MainThread(17984), line 236 in async_validate: Validating options...
+[5.9492318630218506] 2019-10-13 00:43:52,019 - DEBUG - musicbot.bot | In bot.py::MainThread(17984), line 800 in _scheck_configs: Validating permissions config
+[5.9492318630218506] 2019-10-13 00:43:52,019 - DEBUG - musicbot.permissions | In permissions.py::MainThread(17984), line 94 in async_validate: Validating permissions...
+[5.9492318630218506] 2019-10-13 00:43:52,019 - INFO - musicbot.bot | In bot.py::MainThread(17984), line 968 in on_ready: Connected: 632757225718284301/Loudred#0130
+[5.9502291679382324] 2019-10-13 00:43:52,020 - INFO - musicbot.bot | In bot.py::MainThread(17984), line 976 in on_ready: Owner:     339216251677048832/maxiugu#7410
+
+[5.9512271881103516] 2019-10-13 00:43:52,021 - INFO - musicbot.bot | In bot.py::MainThread(17984), line 979 in on_ready: Guild List:
+[5.9522240161895752] 2019-10-13 00:43:52,022 - INFO - musicbot.bot | In bot.py::MainThread(17984), line 983 in on_ready:  - QUE PASA XD
+[5.9522240161895752] 2019-10-13 00:43:52,022 - INFO - musicbot.bot | In bot.py::MainThread(17984), line 983 in on_ready:  - KLG A LA B
+[5.9532215595245361] 2019-10-13 00:43:52,023 - INFO - musicbot.bot | In bot.py::MainThread(17984), line 1039 in on_ready: Not bound to any text channels
+[5.9532215595245361] 2019-10-13 00:43:52,023 - INFO - musicbot.bot | In bot.py::MainThread(17984), line 1065 in on_ready: Not autojoining any voice channels
